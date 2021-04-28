@@ -82,7 +82,7 @@ export default {
 .code {
   width: 75%;
   height: 48px;
-  background: #FFFFFF;
+  background: #red;
   border: 1px solid #B7B7B7;
   box-sizing: border-box;
   border-top-left-radius: 6px;
@@ -90,7 +90,7 @@ export default {
   padding-left: 10px;
   outline: none;
   margin-bottom: 52px;
-  color:red;
+  
 }
 .button {
   width: 25%;
