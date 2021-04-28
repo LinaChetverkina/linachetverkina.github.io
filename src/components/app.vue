@@ -2,7 +2,7 @@
   <div class="hello">
     <div class="wrapper">
       <input v-model="code" class="code" placeholer="Введите номер отслеживания"/>
-      <button @click="search" class="button">Найти</button>
+      <button @click="search" class="button">Отследить груз</button>
       <div class="result" v-if="output.length">
         <div class="order_number">Номер заказа {{ order_number }}</div>
         <div v-for="item in output" :key="item.date">
