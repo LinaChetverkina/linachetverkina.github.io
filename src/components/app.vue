@@ -90,6 +90,7 @@ export default {
   padding-left: 10px;
   outline: none;
   margin-bottom: 52px;
+  color:red;
 }
 .button {
   width: 25%;
