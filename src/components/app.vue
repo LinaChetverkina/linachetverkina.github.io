@@ -36,7 +36,7 @@ export default {
       const table = new Airtable({ apiKey: "keybsAede2w1vligD" });
       var base = table.base("appjwctbIDtbNXYea");
 
-      base("Table 1")
+      base("Tracking")
         .select({
           view: "Grid view",
         })
@@ -46,7 +46,7 @@ export default {
             return;
           }
           records.forEach((record) => {
-            if (record.get("Tracking_number") === this.code) {
+            if (record.get("tracking_number") === this.code) {
               // this.none = false;
               this.order_number = record.get('order_number');
               const keys = _.keys(record.fields).sort();
